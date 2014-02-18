@@ -10,6 +10,9 @@ gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
+# Use the Bootstrap framework with http://designmodo.github.io/Flat-UI/
+gem 'flatui-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
