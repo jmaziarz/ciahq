@@ -1,5 +1,5 @@
 <%= image_tag 'cia-logo.png', class: 'logo' %>
 
-<form>
-   <input type="text" placeholder="Code Name">
-</form>
+<%= form_tag "/welcome/codename" do %>
+  <%= text_field_tag "code_name", nil, placeholder: "Enter code name" %>
+<% end %>
